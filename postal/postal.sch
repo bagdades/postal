@@ -15,23 +15,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L atmel:ATMEGA8-16AU U1
+L postal-rescue:ATMEGA8-16AU-atmel U1
 U 1 1 5A5D2391
 P 5700 3400
 F 0 "U1" H 5000 4600 50  0000 C CNN
 F 1 "ATMEGA8-16AU" H 6250 4600 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm" H 5700 3400 50  0001 C CIN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 5700 3400 50  0001 C CIN
 F 3 "http://www.atmel.com/images/atmel-2486-8-bit-avr-microcontroller-atmega8_l_datasheet.pdf" H 5700 3400 50  0001 C CNN
 	1    5700 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06 J1
+L postal-rescue:Conn_01x06-Connector J1
 U 1 1 5A5DC145
 P 9600 2350
 F 0 "J1" H 9680 2342 50  0000 L CNN
 F 1 "Conn_01x06" H 9680 2251 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 9600 2350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9600 2350 50  0001 C CNN
 F 3 "~" H 9600 2350 50  0001 C CNN
 	1    9600 2350
 	1    0    0    -1  
@@ -82,23 +82,23 @@ SCK
 Text Label 4600 2400 0    50   ~ 0
 RES
 $Comp
-L silabs:CP2102N-A01-GQFN24 U2
+L postal-rescue:CP2102N-A01-GQFN24-silabs U2
 U 1 1 5A5DC772
 P 2450 3600
 F 0 "U2" H 2450 4678 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN24" H 2450 4587 50  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm" H 2900 2800 50  0001 L CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm" H 2900 2800 50  0001 L CNN
 F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 2500 2550 50  0001 C CNN
 	1    2450 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Crystal Y1
+L postal-rescue:Crystal-device Y1
 U 1 1 5A5DC8F7
 P 4450 3100
 F 0 "Y1" H 4450 3368 50  0000 C CNN
 F 1 "14,7456" H 4450 3277 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-4H_Vertical" H 4450 3100 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 4450 3100 50  0001 C CNN
 F 3 "" H 4450 3100 50  0001 C CNN
 	1    4450 3100
 	1    0    0    -1  
@@ -112,23 +112,23 @@ Wire Wire Line
 Wire Wire Line
 	4200 3300 4800 3300
 $Comp
-L device:C C1
+L postal-rescue:C-device C1
 U 1 1 5A5DCC6E
 P 4200 3550
 F 0 "C1" H 4315 3596 50  0000 L CNN
 F 1 "22p" H 4315 3505 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4238 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4238 3400 50  0001 C CNN
 F 3 "" H 4200 3550 50  0001 C CNN
 	1    4200 3550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C C2
+L postal-rescue:C-device C2
 U 1 1 5A5DCCAC
 P 4700 3550
 F 0 "C2" H 4815 3596 50  0000 L CNN
 F 1 "22p" H 4815 3505 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4738 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 3400 50  0001 C CNN
 F 3 "" H 4700 3550 50  0001 C CNN
 	1    4700 3550
 	-1   0    0    -1  
@@ -220,12 +220,12 @@ $EndComp
 Wire Wire Line
 	5750 5100 5750 5000
 $Comp
-L regul:AP1117-33 U3
+L postal-rescue:AP1117-33-regul U3
 U 1 1 5A5DEDA3
 P 3900 900
 F 0 "U3" H 3900 1142 50  0000 C CNN
 F 1 "AP1117-33" H 3900 1051 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 3900 1100 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3900 1100 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4000 650 50  0001 C CNN
 	1    3900 900 
 	1    0    0    -1  
@@ -244,23 +244,23 @@ $EndComp
 Wire Wire Line
 	3900 1350 3900 1200
 $Comp
-L device:C C3
+L postal-rescue:C-device C3
 U 1 1 5A5DF19E
 P 3450 1150
 F 0 "C3" H 3565 1196 50  0000 L CNN
 F 1 "100n" H 3565 1105 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3488 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 1000 50  0001 C CNN
 F 3 "" H 3450 1150 50  0001 C CNN
 	1    3450 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C6
+L postal-rescue:C-device C6
 U 1 1 5A5DF25C
 P 5050 1150
 F 0 "C6" H 5165 1196 50  0000 L CNN
 F 1 "100n" H 5165 1105 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5088 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5088 1000 50  0001 C CNN
 F 3 "" H 5050 1150 50  0001 C CNN
 	1    5050 1150
 	1    0    0    -1  
@@ -363,7 +363,7 @@ $EndComp
 Wire Wire Line
 	6150 1350 6150 750 
 $Comp
-L device:CP C7
+L postal-rescue:CP-device C7
 U 1 1 5A5E43F9
 P 5500 1150
 F 0 "C7" H 5618 1196 50  0000 L CNN
@@ -391,12 +391,12 @@ Wire Wire Line
 Wire Wire Line
 	5500 900  5750 900 
 $Comp
-L device:R R1
+L postal-rescue:R-device R1
 U 1 1 5A5E6DA3
 P 5300 1800
 F 0 "R1" V 5250 1550 50  0000 C CNN
 F 1 "4k7" V 5250 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5230 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5230 1800 50  0001 C CNN
 F 3 "" H 5300 1800 50  0001 C CNN
 	1    5300 1800
 	0    1    1    0   
@@ -411,12 +411,12 @@ Wire Wire Line
 Wire Wire Line
 	4550 2400 4800 2400
 $Comp
-L device:D D1
+L postal-rescue:D-device D1
 U 1 1 5A5E7F90
 P 5300 1950
 F 0 "D1" H 5500 1900 50  0000 C CNN
 F 1 "D" H 5300 1825 50  0001 C CNN
-F 2 "Diodes_SMD:D_MiniMELF" H 5300 1950 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5300 1950 50  0001 C CNN
 F 3 "" H 5300 1950 50  0001 C CNN
 	1    5300 1950
 	-1   0    0    1   
@@ -434,12 +434,12 @@ Connection ~ 5000 1800
 Wire Wire Line
 	5000 1800 4550 1800
 $Comp
-L device:C C4
+L postal-rescue:C-device C4
 U 1 1 5A5EA771
 P 4150 1800
 F 0 "C4" V 4100 2000 50  0000 C CNN
 F 1 "100n" V 4200 1950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805" H 4188 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4188 1650 50  0001 C CNN
 F 3 "" H 4150 1800 50  0001 C CNN
 	1    4150 1800
 	0    -1   1    0   
@@ -462,12 +462,12 @@ Wire Wire Line
 	3850 1800 4000 1800
 NoConn ~ 6700 4200
 $Comp
-L device:L L1
+L postal-rescue:L-device L1
 U 1 1 5A5ECE7E
 P 4850 2050
 F 0 "L1" V 4950 2050 50  0000 C CNN
 F 1 "10u" V 4800 2050 50  0000 C CNN
-F 2 "Inductors_SMD:L_0805" H 4850 2050 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 4850 2050 50  0001 C CNN
 F 3 "" H 4850 2050 50  0001 C CNN
 	1    4850 2050
 	0    -1   -1   0   
@@ -478,12 +478,12 @@ Connection ~ 5650 2050
 Wire Wire Line
 	5650 2050 5650 1950
 $Comp
-L device:C C5
+L postal-rescue:C-device C5
 U 1 1 5A5EDCAB
 P 4150 2050
 F 0 "C5" V 4100 2250 50  0000 C CNN
 F 1 "100n" V 4200 2200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805" H 4188 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4188 1900 50  0001 C CNN
 F 3 "" H 4150 2050 50  0001 C CNN
 	1    4150 2050
 	0    -1   1    0   
@@ -527,12 +527,12 @@ Wire Wire Line
 	4400 2050 4700 2050
 NoConn ~ 4800 2700
 $Comp
-L device:R R2
+L postal-rescue:R-device R2
 U 1 1 5A5F5BAD
 P 7450 2600
 F 0 "R2" V 7243 2600 50  0000 C CNN
 F 1 "1k5" V 7334 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7380 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7380 2600 50  0001 C CNN
 F 3 "" H 7450 2600 50  0001 C CNN
 	1    7450 2600
 	0    1    1    0   
@@ -540,12 +540,12 @@ $EndComp
 Wire Wire Line
 	6700 2600 7300 2600
 $Comp
-L device:LED D2
+L postal-rescue:LED-device D2
 U 1 1 5A5F6E12
 P 7900 2600
 F 0 "D2" H 7891 2816 50  0000 C CNN
 F 1 "LED" H 7891 2725 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" H 7900 2600 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7900 2600 50  0001 C CNN
 F 3 "~" H 7900 2600 50  0001 C CNN
 	1    7900 2600
 	1    0    0    -1  
@@ -583,12 +583,12 @@ Wire Wire Line
 Wire Wire Line
 	8950 2250 9400 2250
 $Comp
-L memory:AT24CS02-XHM U4
+L postal-rescue:AT24CS02-XHM-memory U4
 U 1 1 5A5FAB42
 P 8150 3600
 F 0 "U4" H 8350 3850 50  0000 C CNN
 F 1 "24cXX" H 8000 3850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 8150 3600 50  0001 C CIN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 8150 3600 50  0001 C CIN
 F 3 "http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf" H 8150 3600 50  0001 C CNN
 	1    8150 3600
 	-1   0    0    -1  
@@ -661,12 +661,12 @@ Wire Wire Line
 Wire Wire Line
 	6700 3200 7200 3200
 $Comp
-L Connector:Conn_01x03 J2
+L postal-rescue:Conn_01x03-Connector J2
 U 1 1 5A60F1C2
 P 9600 3550
 F 0 "J2" H 9680 3592 50  0000 L CNN
 F 1 "i2c-header" H 9680 3501 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9600 3550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9600 3550 50  0001 C CNN
 F 3 "~" H 9600 3550 50  0001 C CNN
 	1    9600 3550
 	1    0    0    -1  
@@ -693,23 +693,23 @@ Wire Wire Line
 Wire Wire Line
 	7200 2750 8750 2750
 $Comp
-L device:R R3
+L postal-rescue:R-device R3
 U 1 1 5A61BE13
 P 7350 3250
 F 0 "R3" H 7420 3296 50  0000 L CNN
 F 1 "3k9" H 7420 3205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 7280 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7280 3250 50  0001 C CNN
 F 3 "" H 7350 3250 50  0001 C CNN
 	1    7350 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L postal-rescue:R-device R4
 U 1 1 5A61BF25
 P 7700 3250
 F 0 "R4" H 7770 3296 50  0000 L CNN
 F 1 "3k9" H 7770 3205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 7630 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7630 3250 50  0001 C CNN
 F 3 "" H 7700 3250 50  0001 C CNN
 	1    7700 3250
 	1    0    0    -1  
@@ -737,23 +737,23 @@ Connection ~ 7700 3050
 Wire Wire Line
 	7700 3050 8150 3050
 $Comp
-L memory:93CxxA U6
+L postal-rescue:93CxxA-memory U6
 U 1 1 5A62C3D8
 P 9200 5250
 F 0 "U6" H 9200 5717 50  0000 C CNN
 F 1 "93CxxA" H 9200 5626 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 9100 5250 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9100 5250 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 9200 5350 50  0001 C CNN
 	1    9200 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L memory:25LC_EEPROM U5
+L postal-rescue:25LC_EEPROM-memory U5
 U 1 1 5A62C605
 P 7850 5350
 F 0 "U5" H 7600 5600 50  0000 C CNN
 F 1 "SPI_FLASH" H 8150 5600 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 7500 5300 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7500 5300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf" H 7500 5300 50  0001 C CNN
 	1    7850 5350
 	1    0    0    -1  
@@ -818,12 +818,12 @@ Wire Wire Line
 Text Label 8450 5450 2    50   ~ 0
 MISO
 $Comp
-L device:R R6
+L postal-rescue:R-device R6
 U 1 1 5A63B7BB
 P 7300 5000
 F 0 "R6" H 7370 5046 50  0000 L CNN
 F 1 "10k" H 7370 4955 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 7230 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7230 5000 50  0001 C CNN
 F 3 "" H 7300 5000 50  0001 C CNN
 	1    7300 5000
 	1    0    0    -1  
@@ -848,7 +848,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 2500 6850 2500
 Wire Wire Line
-	6850 2500 6850 5450
+	6850 2500 6850 3850
 Wire Wire Line
 	6850 5450 7450 5450
 Wire Wire Line
@@ -870,12 +870,12 @@ Wire Wire Line
 Wire Wire Line
 	8800 5050 8900 5050
 $Comp
-L device:R R5
+L postal-rescue:R-device R5
 U 1 1 5A6512CA
 P 7000 5000
 F 0 "R5" H 7070 5046 50  0000 L CNN
 F 1 "10k" H 7070 4955 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 6930 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 5000 50  0001 C CNN
 F 3 "" H 7000 5000 50  0001 C CNN
 	1    7000 5000
 	1    0    0    -1  
@@ -898,12 +898,12 @@ Wire Wire Line
 Wire Wire Line
 	7000 5350 7450 5350
 $Comp
-L device:C C8
+L postal-rescue:C-device C8
 U 1 1 5A6586D2
 P 10500 5100
 F 0 "C8" H 10615 5146 50  0000 L CNN
 F 1 "100n" H 10615 5055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 10538 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10538 4950 50  0001 C CNN
 F 3 "" H 10500 5100 50  0001 C CNN
 	1    10500 5100
 	-1   0    0    -1  
@@ -956,12 +956,12 @@ Wire Wire Line
 Wire Wire Line
 	9850 4500 8500 4500
 $Comp
-L device:R R7
+L postal-rescue:R-device R7
 U 1 1 5A680224
 P 8350 4500
 F 0 "R7" V 8143 4500 50  0000 C CNN
 F 1 "1k" V 8234 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 8280 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8280 4500 50  0001 C CNN
 F 3 "" H 8350 4500 50  0001 C CNN
 	1    8350 4500
 	0    1    1    0   
@@ -973,12 +973,12 @@ Wire Wire Line
 Wire Wire Line
 	7100 4500 8200 4500
 $Comp
-L device:C C9
+L postal-rescue:C-device C9
 U 1 1 5A684FF2
 P 10800 5100
 F 0 "C9" H 10915 5146 50  0000 L CNN
 F 1 "100n" H 10915 5055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 10838 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10838 4950 50  0001 C CNN
 F 3 "" H 10800 5100 50  0001 C CNN
 	1    10800 5100
 	1    0    0    -1  
@@ -1010,7 +1010,7 @@ $EndComp
 Wire Wire Line
 	10800 4850 10800 4950
 $Comp
-L device:CP C10
+L postal-rescue:CP-device C10
 U 1 1 5A69750F
 P 4550 1150
 F 0 "C10" H 4668 1196 50  0000 L CNN
@@ -1043,8 +1043,6 @@ NoConn ~ 6700 3100
 NoConn ~ 6700 3400
 NoConn ~ 6700 3700
 NoConn ~ 6700 3800
-NoConn ~ 6700 4000
-NoConn ~ 6700 4100
 NoConn ~ 6700 4300
 NoConn ~ 6700 4400
 NoConn ~ 6700 4500
@@ -1094,4 +1092,115 @@ Wire Wire Line
 	8250 5250 8900 5250
 Wire Wire Line
 	8600 5700 6850 5700
+Wire Wire Line
+	3050 3300 3200 3300
+Wire Wire Line
+	3050 3400 3200 3400
+Text Label 3200 3300 0    50   ~ 0
+TX
+Text Label 3200 3400 0    50   ~ 0
+RX
+Wire Wire Line
+	6850 3850 7050 3850
+Wire Wire Line
+	7050 3850 7050 4350
+Wire Wire Line
+	7050 4350 6850 4350
+Wire Wire Line
+	6850 4350 6850 5450
+Wire Wire Line
+	6700 4000 6850 4000
+Wire Wire Line
+	6700 4100 6850 4100
+Text Label 6850 4000 0    50   ~ 0
+RX
+Text Label 6850 4100 0    50   ~ 0
+TX
+$Comp
+L Connector_Specialized:USB_B_Micro J3
+U 1 1 5A620A1C
+P 1000 4000
+F 0 "J3" H 1055 4467 50  0000 C CNN
+F 1 "USB_B_Micro" H 1055 4376 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1150 3950 50  0001 C CNN
+F 3 "~" H 1150 3950 50  0001 C CNN
+	1    1000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 5A620B9E
+P 1000 4500
+F 0 "#PWR035" H 1000 4250 50  0001 C CNN
+F 1 "GND" H 1005 4327 50  0000 C CNN
+F 2 "" H 1000 4500 50  0001 C CNN
+F 3 "" H 1000 4500 50  0001 C CNN
+	1    1000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4500 1000 4400
+$Comp
+L power:GND #PWR034
+U 1 1 5A62684B
+P 900 4500
+F 0 "#PWR034" H 900 4250 50  0001 C CNN
+F 1 "GND" H 905 4327 50  0000 C CNN
+F 2 "" H 900 4500 50  0001 C CNN
+F 3 "" H 900 4500 50  0001 C CNN
+	1    900  4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  4500 900  4400
+NoConn ~ 1300 4200
+$Comp
+L postal-rescue:R-device R9
+U 1 1 5A63257E
+P 1650 4000
+F 0 "R9" V 1600 3800 50  0000 C CNN
+F 1 "30" V 1650 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1580 4000 50  0001 C CNN
+F 3 "" H 1650 4000 50  0001 C CNN
+	1    1650 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 4000 1500 4000
+Wire Wire Line
+	1800 4000 1850 4000
+$Comp
+L postal-rescue:R-device R10
+U 1 1 5A63E9A6
+P 1650 4100
+F 0 "R10" V 1600 3900 50  0000 C CNN
+F 1 "30" V 1650 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1580 4100 50  0001 C CNN
+F 3 "" H 1650 4100 50  0001 C CNN
+	1    1650 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 4100 1500 4100
+Wire Wire Line
+	1800 4100 1850 4100
+$Comp
+L postal-rescue:R-device R8
+U 1 1 5A64B438
+P 1550 3800
+F 0 "R8" V 1500 3650 50  0000 C CNN
+F 1 "0" V 1550 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1480 3800 50  0001 C CNN
+F 3 "" H 1550 3800 50  0001 C CNN
+	1    1550 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3800 1300 3800
+Wire Wire Line
+	1700 3800 1800 3800
+Wire Wire Line
+	1800 3800 1800 3900
+Wire Wire Line
+	1800 3900 1850 3900
 $EndSCHEMATC

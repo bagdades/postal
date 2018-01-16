@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name postal-rescue)(type Legacy)(uri ${KIPRJMOD}/postal-rescue.lib)(options "")(descr ""))
+)
