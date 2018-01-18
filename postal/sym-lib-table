@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name postal-rescue)(type Legacy)(uri ${KIPRJMOD}/postal-rescue.lib)(options "")(descr ""))
+  (lib (name cp2102)(type Legacy)(uri /home/vovan/projects/postal/postal/lib/cp2102.lib)(options "")(descr ""))
 )
